@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "",
-  assetPrefix: "",
+  basePath: "/propapi-admin",
+  assetPrefix: "/propapi-admin",
   reactStrictMode: true,
   images: { unoptimized: true },
 };
